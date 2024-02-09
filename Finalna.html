@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #f53b41;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #f53b41;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ffb580;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will you be my Valentine, my bebi boo?</h1>
+    <button id="yesButton">Yes babyyyyy <3</button>
+    <button id="noButton">Nooooo 🙄</button>
+
+    <script>
+        document.getElementById("yesButton").addEventListener("click", function() {
+            alert("Yayyy! You're the one that I want to spend Valentine's Day with. You are my forever love! ❤️");
+        });
+
+        document.getElementById("noButton").addEventListener("click", function() {
+            alert("That's okay. I still love you! (BUT WHYYYYY? AYAW MO NA BA SAKIN?🥺 )  ");
+        });
+    </script>
+</body>
+</html>
